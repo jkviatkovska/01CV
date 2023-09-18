@@ -45,12 +45,13 @@ h3 {
 }
 
 .omne {
-    padding-top: 50px;
+    padding: 0;
+    margin-top: 0;
 }
 
 .me p {
     text-align: center;
-    margin: 0 200px 0 200px;
+    margin: 40px 200px 0 200px;
     padding-bottom: 90px;
 }
 
@@ -69,12 +70,12 @@ h3 {
 }
 
 .photo {
-    width: 430px;
+    width: 400px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 a {
@@ -96,6 +97,10 @@ a:active {
 .contactbar li {
     display: inline-block;
     margin-left: 30px;
+}
+
+.contactbar a {
+    color: #fff;
 }
 
 .navbar01,
@@ -236,7 +241,7 @@ a:active {
     font-size: 48px;
     text-align: center;
     font-style: italic;
-    margin: 100px 0 20px 0px;
+    margin: 60px 0 20px 0px;
 }
 
 .academy p:first-child,
@@ -246,12 +251,14 @@ a:active {
 
 .academy p:last-child,
 .prax p:last-child {
-    margin-bottom: 80px;
+    margin-top: 0;
+    margin-bottom: 100px;
 }
 
 .academy p,
 .prax p {
     text-align: center;
+    margin: 0;
 }
 
 .vsvu {
@@ -263,22 +270,33 @@ a:active {
 .foto {
     height: 300px;
     opacity: 0.75;
-    padding: 40px;
+    padding: 40px 0 60px 50px;
 }
 
-.foto:hover {
+.foto01 {
+    width: 400px;
+    opacity: 0.75;
+    padding: 20px;
+    padding-left: 50px;
+}
+.foto02 {
+    width: 50px;
+}
+
+.foto:hover,
+.foto01:hover {
     opacity: 1;
 }
 
 .art {
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     padding: 80px 0 0 40px;
 }
 
 .text {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     padding-left: 40px;
 }
 
