@@ -265,10 +265,24 @@ a:active {
     text-transform: capitalize;
 }
 
+.right {
+    float: left;
+    width: 50%;
+}
+
+.left {
+    float: right;
+    width: 50%;
+}
+
+.zrusenie-obtekania {
+    clear: both;
+}
+
 /*portfolio.html*/
 
 .foto {
-    height: 300px;
+    width: 290px;
     opacity: 0.75;
     padding: 40px 0 60px 50px;
 }
@@ -279,12 +293,17 @@ a:active {
     padding: 20px;
     padding-left: 50px;
 }
+
 .foto02 {
-    width: 50px;
+    width: 290px;
+    opacity: 0.75;
+    padding: 20px;
+    padding-left: 50px;
 }
 
 .foto:hover,
-.foto01:hover {
+.foto01:hover,
+.foto02:hover {
     opacity: 1;
 }
 
@@ -300,5 +319,23 @@ a:active {
     padding-left: 40px;
 }
 
+.interest {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+}
 
- 
+/*about.html*/
+.experience {
+    margin-top: 60px;
+
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+.skills li {
+    text-align: left;
+    padding-left: 60px;
+}
