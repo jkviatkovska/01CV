@@ -35,10 +35,6 @@ h3 {
     padding-top: 80px;
 }
 
-.job {
-    padding-top: 0;
-}
-
 .omne {
     padding: 0;
     margin-top: 0;
@@ -83,11 +79,6 @@ a:focus,
 a:active {
     color: #8d7455d7;
 } 
-
-.galery {
-    color: #8d7455d7;
-}
-
 
 .contactbar li {
     display: inline-block;
@@ -145,20 +136,18 @@ a:active {
 .social-icon .fa:hover {
     color: #fff;;
 }
+
 .fa {
     margin-right: 10px;
 }
 
 .contactbar {
     display: inline-block;
-
 }
 
 .contactbar li {
     padding: 10px 30px 10px 30px;
 }
-
-
 
 .pre {
     color: #fff;
@@ -166,7 +155,7 @@ a:active {
     text-align: center;
 }
 
- .pre-footer {
+.pre-footer {
     padding: 40px 0 40px 0;
     margin: 0;
     background: #d8ceb9;
@@ -177,7 +166,6 @@ a:active {
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
-
 }
 
 .pre strong {
@@ -230,6 +218,10 @@ a:active {
     text-decoration: underline;
 }
 
+.mail:hover {
+    text-decoration: underline;
+}
+
 
 /*work.html*/
 .header02 {
@@ -241,23 +233,19 @@ a:active {
 
 .academy p:first-child,
 .prax p:first-child {
-    margin: 80px 0 0 0;
+    margin-top: 80px;
 }
 
 .academy p:last-child,
 .prax p:last-child {
     margin-top: 0;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .academy p,
 .prax p {
     text-align: center;
     margin: 0;
-}
-
-.vsvu {
-    text-transform: capitalize;
 }
 
 .right {
@@ -277,9 +265,9 @@ a:active {
 /*portfolio.html*/
 
 .foto {
-    width: 290px;
+    height: 500px;
     opacity: 0.75;
-    padding: 40px 0 60px 50px;
+    padding: 40px 0 20px 50px;
 }
 
 .foto01 {
@@ -296,9 +284,16 @@ a:active {
     padding-left: 50px;
 }
 
+.foto03 {
+    height: 400px;
+    opacity: 0.75;
+    padding: 40px 0 20px 50px;
+}
+
 .foto:hover,
 .foto01:hover,
-.foto02:hover {
+.foto02:hover,
+.foto03:hover {
     opacity: 1;
 }
 
@@ -317,20 +312,48 @@ a:active {
 .interest {
     text-align: right;
     padding-right: 50px;
+    padding-bottom: 30px;
     font-size: 20px;
+    margin: 0;
 }
 
 /*about.html*/
 .experience {
     margin-top: 60px;
-
 }
+
+.experience h2 {
+    margin-bottom: 80px;
+}
+
+.class {
+    margin-bottom: 0;
+}
+
+.text02 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 80px;
+    padding: 0 60px 0 60px;
+}
+
 
 .skills {
     margin-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+}
+
+.skills h2 {
+    text-align: center;
 }
 
 .skills li {
     text-align: left;
-    padding-left: 60px;
+    list-style-type: none;
 }
+
+.galery02:hover {
+    text-decoration: underline;
+}
+
