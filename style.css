@@ -1,6 +1,7 @@
 html {
     height: 100%;
 }
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color:#fff1e6;
@@ -10,8 +11,8 @@ body {
     margin: 0;
 }
 
-/*index.html*/
 
+/*index.html*/
 h1 {
     font-style: italic;
     font-size: 60px;
@@ -262,8 +263,8 @@ a:active {
     clear: both;
 }
 
-/*portfolio.html*/
 
+/*portfolio.html*/
 .foto {
     height: 500px;
     opacity: 0.75;
@@ -278,7 +279,7 @@ a:active {
 }
 
 .foto02 {
-    width: 290px;
+    height: 200px;
     opacity: 0.75;
     padding: 20px;
     padding-left: 50px;
@@ -317,6 +318,7 @@ a:active {
     margin: 0;
 }
 
+
 /*about.html*/
 .experience {
     margin-top: 60px;
@@ -337,9 +339,8 @@ a:active {
     padding: 0 60px 0 60px;
 }
 
-
 .skills {
-    margin-top: 60px;
+    margin-top: 80px;
     padding-bottom: 70px;
     padding-left: 20px;
 }
